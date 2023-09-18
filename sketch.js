@@ -35,7 +35,7 @@ let som_rebatida;
 let trilha;
 let som_ponto;
 
-function preLoad(){
+function preload(){ // função pra carregar os sons
   som_ponto = loadSound("ponto.mp3");
   trilha = loadSound("trilha.mp3");
   som_rebatida = loadSound("raquetada.mp3");
